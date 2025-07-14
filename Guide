@@ -1,0 +1,28 @@
+# 🤖 Reddit User Persona Generator
+
+This project uses Reddit's API + Gemini 2.0 Flash to scrape a user's posts/comments and generate a structured persona with citations.
+
+---
+
+## 📦 Files
+
+- `reddit_persona_generator.ipynb` – the main Colab notebook
+- `kojied.txt` – sample persona
+- `Hungry-Move-6603.txt` – sample persona
+- `README.md` – this guide
+
+---
+
+## ⚙️ How to Set Up
+
+1. Open [Google Colab](https://colab.research.google.com/)
+2. Upload and open `reddit_persona_generator.ipynb`
+3. In the first cell, enter your:
+   - Reddit client ID
+   - Reddit client secret
+   - Reddit username (in `user_agent`)
+   - Gemini API key (from [makersuite.google.com](https://makersuite.google.com/app/apikey))
+
+4. Install dependencies:
+```python
+!pip install praw google-generativeai
