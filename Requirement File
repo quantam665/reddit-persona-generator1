@@ -1,0 +1,5 @@
+reddit-persona-generator/
+├── reddit_persona_generator.ipynb       ✅ full working Colab notebook
+├── kojied.txt                           ✅ persona file (kojied)
+├── Hungry-Move-6603.txt                 ✅ persona file (Hungry-Move-6603)
+└── README.md                            ✅ with setup + run instructions
